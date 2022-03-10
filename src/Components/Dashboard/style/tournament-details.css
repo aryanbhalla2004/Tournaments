@@ -1,0 +1,344 @@
+.link-tournament-detail {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.link-tournament-detail > li {
+  padding: 0 25px;
+}
+
+.link-tournament-detail > li > a {
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  color: #a8abb3;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  text-decoration: none;
+  padding: 10px 0;
+  padding-top: 14px;
+  transition: .3s;
+  border-bottom: 3px solid #fff;
+}
+
+.active-button {
+  color: #616166 !important;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  border-bottom: 3px solid #4361ee !important;
+}
+
+.players-table {
+  color: #616166;
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.main-header {
+  border-bottom: 1px solid #f1f3fd !important;
+}
+
+.players-table > tr {
+  padding: 4px 20px;
+}
+
+.players-table > tr > th{
+  color: #a8abb3;
+  font-size: 12px;
+  letter-spacing: 1.71px;
+  line-height: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.players-table > tr > th:first-child{
+  padding-left: 20px;
+}
+
+.players-table > tr > td:first-child{
+  padding-left: 20px;
+}
+
+.players-table > tr > td{
+  color: #616166;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+  padding: 23px 8px;
+  transition: .3s;
+}
+
+ .action-button-table > i {
+  font-size: 1.5rem;
+  transition: .3s;
+}
+
+.action-button-table > i:hover {
+  color: #e34534;
+}
+
+.data-table-teams{
+  transition: .3s;
+  border-bottom: 1px solid #f1f3fd !important;
+}
+
+.data-table-teams:hover {
+  background-color: #4362ee35;
+}
+
+.container-details-tournament > h2, .schedule-list-container > h2 {
+  color: #dbdbdb;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 30px 0 20px 0;
+  font-weight: 500;
+}
+
+.container-details-tournament > .information-box {
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 24px;
+}
+
+.column-data > h3 {
+  color: #616166;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.column-data > .row-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column-data > .row-data > .item-information {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.width-100-fix {
+  width: 100% !important  ;
+}
+
+.field-card-name {
+  color: #b2bad7;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  margin-top: -2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.field-card-value {
+  color: #616166;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+  margin-right: 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.top-info-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #4361ee;
+}
+
+.field-card-name-first {
+  color: #b2bad7;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.field-card-value-first {
+  color: #616166;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+  font-weight: 100;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #f1f3fd;
+  margin: 20px 0;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.progress-bar-holder {
+  margin: 10px 0;
+  border: 1px solid #e6e6e9;
+  margin-bottom: 15px;
+  height: 13px;
+  background-color: #e6e6e9;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.progress-data {
+  background-color: #4361ee;
+  height: 100%;
+  transition: .3s;
+}
+
+.copy-button {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #616166;
+}
+
+.no-members {
+  padding: 30px;
+  color: #616166;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.no-members > img {
+  margin-bottom: 20px;
+  width: 300;
+}
+
+.status {
+  font-weight: 500;
+  color: #e34534;
+}
+
+.below-title {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.below-title > h4 {
+  font-weight: 300;
+}
+
+.right-side-title-tournament-details {
+  display: flex;
+}
+
+.right-side-title-tournament-details > button:first-child {
+  box-sizing: border-box;
+  padding: 8px;
+  margin-right: 20px;
+  border: 1px solid #b2bad7;
+  border-radius: 6px;
+  background-color: #ffffff;
+  height: 42px;
+  width: 42px;
+  font-size: 1.2rem;
+  color: #a8abb3;
+  cursor: pointer;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.right-side-title-tournament-details > button:first-child:hover .options{
+  display: flex;
+}
+
+.options {
+  top: 100%;
+  background-color: #fff;
+  position: absolute;
+  list-style-type: none;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.options > li {
+  border-bottom: 1px solid #dbdada;
+  color: #616166;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  display: flex;
+  padding: 5px 30px;
+  line-height: 19px;
+  border-bottom: 1px solid #afafaf;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  transition: .3s;
+}
+
+.options > li:hover {
+  background-color: #dadde6;
+}
+
+.right-side-title-tournament-details > button {
+  background-color: #426bff;
+  border-radius: 6px;
+  border: 1px solid #426bff;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 8px 18px;
+}
+
+.schedule-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.schedule-list > li {
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,291 @@
+.Tournament-page-list-container {
+  padding: 25px 35px;
+  overflow: scroll;
+}
+
+.table-container {
+  border: 1px solid;
+  overflow-x: scroll;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.table-container > h2 {
+  font-weight: 300;
+  padding: 30px 20px;
+  color: #000;
+}
+
+.table-container > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.head-title > th {
+  padding: 10px 15px;
+  font-size: .9rem;
+  text-align: left;
+  font-weight: 300 !important;
+  color: rgb(94, 94, 94);
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.table-row {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.table-row > td{
+  padding: 10px 15px;
+  font-size: .9rem;
+  text-align: left;
+}
+
+.table-row {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.secret-character {
+  position: relative;
+  overflow: hidden !important ;
+  border-radius: 5px;
+}
+
+.hover-copy-effect {
+  height: 100%;
+  padding: 10px 10px;
+  transition: .3s;
+  background-color: #3b57d1;
+}
+
+.hover-copy-effect:hover {
+  background-color: #3b57d1;
+}
+
+.copy-info {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+  gap: 5px;
+  width: 220px;
+  background-color: #4361ee;
+  overflow: hidden !important;
+}
+
+.copy-info > input {
+  background-color: #4361ee;
+  border: none;
+  color: #fff;
+  letter-spacing: 1px;  
+  width: 100%;
+  outline: none;
+}
+
+.copied-info {
+  position: absolute;
+  background-color: #4361ee;
+  display: flex;
+  top: 0;
+  left: -300;
+  width: 100%;
+  transition: .3s;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.copied-info > i {
+  font-size: 1.2rem;
+}
+
+.copied-info > h3 {
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+.show-copied-info {
+  left: 0 !important;
+}
+
+.table-row:hover {
+  border-top: 1px solid #4362ee35;
+  border-bottom: 1px solid #4362ee35;
+  background-color: #4362ee35;
+}
+
+.status > i{
+  font-size: 2rem;
+}
+
+.game-table-data {
+  display: flex;
+  align-items: top;
+  gap: 10px;
+}
+
+.game-table-data > img {
+  max-width: 40px;
+}
+
+.action-col > button {
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #e34534;
+  cursor: pointer;
+}
+
+.game-table-data > div {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.game-table-data > div > h3 {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.game-table-data > div > p {
+  font-weight: 300;
+  font-size: .8rem;
+}
+
+.table-row > td {
+  max-width: 275px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #cfd1e3;
+  border-radius: 4px;
+  margin-top: 5px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.progress-bar > .progress-result {
+  background-color: #4361ee;
+  width: 50%;
+  z-index: 10;
+  height: 100%;
+  transition: .3s width;
+}
+
+.registration > h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: rgb(94, 94, 94);
+  font-size: .8rem;
+}
+
+.dates-in-table > h3{
+  color: rgb(94, 94, 94);
+  font-weight: 300 !important;
+  font-size: .9rem;
+  line-height: 25px;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.title-page {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.table-row > .name {
+  font-weight: 100;
+  transition: .3s;
+}
+
+.table-row > .name:hover{
+  text-decoration: underline;
+}
+
+.input-with-search-icon {
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: #fff;
+}
+
+.input-with-search-icon > input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 13px 0;
+  padding-left: 10px;
+}
+
+
+.input-with-search-icon > i {
+  padding: 10px;
+  color: #000;
+  z-index: 100;
+}
+
+.right-side-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.right-side-title > button {
+  background-color: #4361ee;
+  color: #fff;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid blue;
+}
+
+.color-blue {
+  color: #4361ee !important;
+}
+
+.color-red {
+  color: #e34534 !important;
+}
+
+.heavy-font-size {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0 1px;
+}
+
+.light-style {
+  font-weight: 300;
+}
+
+.update-fix {
+  margin-top: 5px;
+  font-weight: 300;
+}
